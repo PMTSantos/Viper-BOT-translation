@@ -1,7 +1,7 @@
 {
     "errors": {
-        "no_perms": "Não tens permissões para usar este comando!",
-        "inv_channel": "Canal inválido!",
+        "no_perms": "You don't have permissions to use this command!",
+        "inv_channel": "Invalid channel!",
         "n_expected": "Algo inesperado aconteceu, por favor contacta a nossa equipa para resolver",
         "inv_link": " Submete um link válido! Tem que conter http:// ou https://",
         "n_owner": "Deves ser o dono do servidor para executares backups!",
