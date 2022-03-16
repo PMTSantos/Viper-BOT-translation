@@ -6,68 +6,68 @@
         "inv_link": " Submit a valid link! Must contain http:// or https://",
         "n_owner": "You must be the owner of the server to execute backups!",
         "inv_time": "Provide a valid duration! (s/m/h/d)",
-        "inv_role": "Convém mencionares um cargo!",
-        "no_user": "Não mencionas-te ninguém!",
-        "bot_no_perms": "Ocorreu um erro... Por favor confirma se tenho permissão de {{perm}}!",
-        "no_voice_channel": "Tens que estar num canal de voz!"
+        "inv_role": "You should mention a role!",
+        "no_user": "You didn't mention anyone!",
+        "bot_no_perms": "An error occurred... Please confirm I have {{perm}} permission!",
+        "no_voice_channel": "You must be in a voice channel!"
     },
     "success": {
-        "single": "Sucesso!",
-        "channel": "Canal definido com sucesso e pronto para ser usado!"
+        "single": "Success!",
+        "channel": "Channel successfully defined and ready to use!"
     },
     "commands": {
         "admin": {
             "anti_link": {
-                "disable": "Sistema de anti-link desativado!",
-                "enable": "Sistema de anti-link ativado!"
+                "disable": "Anti-link system disabled!",
+                "enable": "Anti-link system activated!"
             },
             "feedbackchannel": {
                 "embed": {
                     "title": "Feedback",
-                    "description": "Este é o canal de feedback do servidor {{sv_name}}, usa o slash command `/feedback` para deixares a tua avaliação!"
+                    "description": "This is the {{sv_name}} server feedback channel, use the `/feedback` slash command to leave your review!"
                 }
             },
             "suggestionchannel": {
                 "embed": {
-                    "title": "Sugestões",
-                    "description": "Tens algo para sugerir? Então estás no canal certo! Usa o comando abaixo para a tua sugestão",
+                    "title": "Suggestions",
+                    "description": "Do you have something to suggest? Then you're on the right channel! Use the command below for your suggestion",
                     "field_1": {
-                        "title": "Comando",
-                        "description": "```fix\n/sugerir <o que tu quiseres>```"
+                        "title": "Command",
+                        "description": "```fix\n/suggest <what you want>```"
                     },
                     "field_2": {
-                        "title": "Exemplo",
-                        "description": "```/sugerir Este bot merece mais fama```"
+                        "title": "Example",
+                        "description": "```/suggest This bot deserves more fame```"
                     }
                 }
             }
         },
         "avisos": {
             "warn": {
-                "warn_limit": "O utilizador já esgotou o máximo de avisos (3/3)... É melhor decidirem o que fazer com ele",
+                "warn_limit": "The user has reached the maximum number of warnings (3/3)... It's better to decide what to do with him",
                 "embed": {
-                    "title": "AVISO",
-                    "field1_title": "Utilizador",
+                    "title": "WARNING",
+                    "field1_title": "User",
                     "field2_title": "Staff",
-                    "field3_title": "Motivo",
-                    "count": "Contagem"
+                    "field3_title": "Reason",
+                    "count": "Count"
                 }
             },
             "remove_warn": {
                 "embed": {
-                    "title": "Remoção de Avisos",
-                    "description": "O aviso pretendido foi removido!"
+                    "title": "Removal of Warnings",
+                    "description": "The intended warning has been removed!"
                 },
-                "all_warns": "Foram removidos todos os avisos!",
-                "inv_warn": "O aviso pretendido não existe!",
-                "no_warn": "Deves escolher um aviso, exemplo: `1`, `2`, `3`, `todos`!",
+                "all_warns": "All warnings have been removed!",
+                "inv_warn": "The intended warning does not exist!",
+                "no_warn": "You must choose a warning, example: `1`, `2`, `3`, `all`!",
                 "mod_log_embed": {
-                    "title": "Remoção de Avisos",
+                    "title": "Removal of Warnings",
                     "field_1": "STAFF",
-                    "field_2": "Utlizador",
-                    "field_3": "Aviso",
+                    "field_2": "User",
+                    "field_3": "Warning",
                     "field_4": {
-                        "title": "Motivo",
+                        "title": "Reason",
                         "description": "Não Existe"
                     }
                 }
