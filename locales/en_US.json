@@ -128,7 +128,7 @@
             },
             "see_warns": {
                 "embed": {
-                    "title": "WARNING",
+                    "title": "WARNINGS",
                     "description": "O utilizador não tem nenhum aviso",
                     "fields": {
                         "title": "Warning",
@@ -430,7 +430,7 @@
                     "field_5": "Joined at: ",
                     "field_6": "Flags",
                     "field_7": "Status",
-                    "field_8": "Higher role",
+                    "field_8": "Highest role",
                     "field_9": "BOT?",
                     "field_10": "Activity",
                     "field_11": "Permissions",
