@@ -72,39 +72,39 @@
     "commands": {
         "admin": {
             "anti_link": {
-                "disable": "Sistema de anti-link desativado!",
+                "disable": "Anti-link system disabled!",
                 "enable": "Sistema de anti-link ativado!"
             },
             "feedbackchannel": {
                 "embed": {
                     "title": "Feedback",
-                    "description": "Este é o canal de feedback do servidor {{sv_name}}, usa o slash command `/feedback` para deixares a tua avaliação!"
+                    "description": "This is the {{sv_name}} server feedback channel, use the `/feedback` slash command to leave your review!"
                 }
             },
             "suggestionchannel": {
                 "embed": {
-                    "title": "Sugestões",
-                    "description": "Tens algo para sugerir? Então estás no canal certo! Usa o comando abaixo para a tua sugestão",
+                    "title": "Suggestions",
+                    "description": "Do you have something to suggest? Then you're on the right channel! Use the command below for your suggestion",
                     "field_1": {
-                        "title": "Comando",
-                        "description": "```fix\n/sugerir <o que tu quiseres>```"
+                        "title": "Command",
+                        "description": "```fix\n/suggest <what you want>```"
                     },
                     "field_2": {
-                        "title": "Exemplo",
-                        "description": "```/sugerir Este bot merece mais fama```"
+                        "title": "Example",
+                        "description": "```/suggest This bot deserves more fame```"
                     }
                 }
             }
         },
         "avisos": {
             "warn": {
-                "warn_limit": "O utilizador já esgotou o máximo de avisos (3/3)... É melhor decidirem o que fazer com ele",
+                "warn_limit": "The user has reached the maximum number of warnings (3/3)... It's better to decide what to do with him",
                 "embed": {
-                    "title": "AVISO",
-                    "field1_title": "Utilizador",
+                    "title": "WARNING",
+                    "field1_title": "User",
                     "field2_title": "Staff",
-                    "field3_title": "Motivo",
-                    "count": "Contagem"
+                    "field3_title": "Reason",
+                    "count": "Count"
                 }
             },
             "remove_warn": {
