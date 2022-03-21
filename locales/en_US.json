@@ -129,7 +129,7 @@
             "see_warns": {
                 "embed": {
                     "title": "WARNINGS",
-                    "description": "O utilizador não tem nenhum aviso",
+                    "description": "The user has no warnings",
                     "fields": {
                         "title": "Warning",
                         "description": "Staff: <@{{staff}}>\nReason:{{reason}}\nDate:{{date}}"
@@ -141,17 +141,17 @@
             "create": {
                 "embed_author": {
                     "title": "🗄️ Backup successfully created 🗄️",
-                    "description": "Para usares o backup usa o ID: `{{backupID}}` no comando ```/backup criar```"
+                    "description": "To execute the backup use the ID: `{{backupID}}` in the commands ```/backup load```"
                 },
                 "embed_reply": {
                     "title": "🗄️ Backup successfully created 🗄️",
-                    "description": "O ID do backup foi-te enviado para o DM"
+                    "description": "The backup ID was sent to you in DM"
                 }
             },
             "info": {
-                "no_id": "Deves especificar um ID de backup válido!",
-                "not_id": "Este código não te pertence!",
-                "no_backup": "Não foi encontrado nenhum backup com esse ID",
+                "no_id": "You must specify a valid backup ID!",
+                "not_id": "This code doesn't belong to you!",
+                "no_backup": "No backups were found with this ID",
                 "embed": {
                     "title": "Backup Info",
                     "field_1": "Backup ID",
@@ -161,16 +161,16 @@
                 }
             },
             "load": {
-                "inv_id": "Deves especificar um ID de backup válido!",
-                "not_id": "Este código não te pertence ou não existe!",
-                "wait_button": "Quando o backup for executado todos os canais, cargos,etc. vão ser trocados! Clica no botão para confirmar!",
-                "end": "Terminou! Cancelada a execução do backup!",
-                "started": "Iniciada a execução do backup!"
+                "inv_id": "You must specify a valid backup ID!",
+                "not_id": "This code doesn't belong to you or doesn't exist!",
+                "wait_button": "When the backup runs all channels, positions, etc. will be exchanged! Click the button to confirm!",
+                "end": "Finished! Backup execution canceled!",
+                "started": "Backup execution started!"
             }
         },
         "activities": {
-            "button": "Clica aqui para entrares na atividade",
-            "start": "Clica no botão para começares!"
+            "button": "Click here to join the activity",
+            "start": "Click in the button to get started!"
         },
         "economy": {
             "products": {
@@ -190,18 +190,18 @@
                     "field_2": "💳 Bank",
                     "field_3": "🏦 Total"
                 },
-                "no_pin": "Não definiste um PIN para a tua conta. Executa o comando `/econ setpin` para definires o PIN",
-                "inv_pin": "PIN incorreto! Executa o comando outra vez"
+                "no_pin": "You haven't set a PIN for your account. Run the `/econ setpin` command to set the PIN",
+                "inv_pin": "Incorrect PIN! Run the command again"
             },
             "beg": {
-                "inv_time": "Já foste pedinte recentemente\n\nPodes usar o comando outra vez daqui a {{min}}m {{sec}}s",
-                "success": "Viras-te pedinte e recebeste {{amount}}€",
+                "inv_time": "Have you been a beggar recently\n\nYou can use the command again in {{min}}m {{sec}}s",
+                "success": "You became a beggar and received {{amount}}€",
                 "transaction": "Beg"
             },
             "buy": {
-                "inv_item": "Item inválido!",
-                "inv_money": "Precisas ter {{money}}€ para compares o item!",
-                "success": " Compras-te o {{product}} com sucesso!",
+                "inv_item": "Invalid item!",
+                "inv_money": "You must have {{money}}€ to buy the item!",
+                "success": "You successfully purchased {{product}}!",
                 "transaction": {
                     "1": "Store",
                     "2": "Product / Quantity"
