@@ -73,7 +73,7 @@
         "admin": {
             "anti_link": {
                 "disable": "Anti-link system disabled!",
-                "enable": "Sistema de anti-link ativado!"
+                "enable": "Anti-link system activated!"
             },
             "feedbackchannel": {
                 "embed": {
@@ -109,30 +109,30 @@
             },
             "remove_warn": {
                 "embed": {
-                    "title": "Remoção de Avisos",
-                    "description": "O aviso pretendido foi removido!"
+                    "title": "Removal of Warnings",
+                    "description": "The intended warning has been removed!"
                 },
-                "all_warns": "Foram removidos todos os avisos!",
-                "inv_warn": "O aviso pretendido não existe!",
-                "no_warn": "Deves escolher um aviso, exemplo: `1`, `2`, `3`, `todos`!",
+                "all_warns": "All warnings have been removed!",
+                "inv_warn": "The intended warning does not exist!",
+                "no_warn": "You must choose a warning, example: `1`, `2`, `3`, `all`!",
                 "mod_log_embed": {
-                    "title": "Remoção de Avisos",
+                    "title": "Removal of Warnings",
                     "field_1": "STAFF",
-                    "field_2": "Utlizador",
-                    "field_3": "Aviso",
+                    "field_2": "User",
+                    "field_3": "Warning",
                     "field_4": {
-                        "title": "Motivo",
-                        "description": "Não Existe"
+                        "title": "Reason",
+                        "description": "Doesn't exist"
                     }
                 }
             },
             "see_warns": {
                 "embed": {
-                    "title": "AVISOS",
+                    "title": "WARNING",
                     "description": "O utilizador não tem nenhum aviso",
                     "fields": {
-                        "title": "Aviso",
-                        "description": "Staff: <@{{staff}}>\nMotivo:{{reason}}\nData:{{date}}"
+                        "title": "Warning",
+                        "description": "Staff: <@{{staff}}>\nReason:{{reason}}\nDate:{{date}}"
                     }
                 }
             }
@@ -140,11 +140,11 @@
         "backups": {
             "create": {
                 "embed_author": {
-                    "title": "🗄️ Backup criado com sucesso 🗄️",
+                    "title": "🗄️ Backup successfully created 🗄️",
                     "description": "Para usares o backup usa o ID: `{{backupID}}` no comando ```/backup criar```"
                 },
                 "embed_reply": {
-                    "title": "🗄️ Backup criado com sucesso 🗄️",
+                    "title": "🗄️ Backup successfully created 🗄️",
                     "description": "O ID do backup foi-te enviado para o DM"
                 }
             },
@@ -153,11 +153,11 @@
                 "not_id": "Este código não te pertence!",
                 "no_backup": "Não foi encontrado nenhum backup com esse ID",
                 "embed": {
-                    "title": "Informações do backup",
-                    "field_1": "ID do Backup",
-                    "field_2": "ID do Servidor",
-                    "field_3": "Tamanho",
-                    "field_4": "Criado a"
+                    "title": "Backup Info",
+                    "field_1": "Backup ID",
+                    "field_2": "Server ID",
+                    "field_3": "Size",
+                    "field_4": "Created at"
                 }
             },
             "load": {
@@ -176,18 +176,18 @@
             "products": {
                 "1": "bronze",
                 "2": "nikes",
-                "3": "carro",
-                "4": "mansao",
-                "5": "cana",
-                "6": "isco",
-                "7": "arma",
-                "8": "balas"
+                "3": "car",
+                "4": "mansion",
+                "5": "cane",
+                "6": "bait",
+                "7": "gun",
+                "8": "bullets"
             },
             "balance": {
                 "embed": {
-                    "description": "Dinheiro de {{user}}",
-                    "field_1": "💵 Carteira",
-                    "field_2": "💳 Banco",
+                    "description": "Money from {{user}}",
+                    "field_1": "💵 Wallet",
+                    "field_2": "💳 Bank",
                     "field_3": "🏦 Total"
                 },
                 "no_pin": "Não definiste um PIN para a tua conta. Executa o comando `/econ setpin` para definires o PIN",
@@ -196,15 +196,15 @@
             "beg": {
                 "inv_time": "Já foste pedinte recentemente\n\nPodes usar o comando outra vez daqui a {{min}}m {{sec}}s",
                 "success": "Viras-te pedinte e recebeste {{amount}}€",
-                "transaction": "Pedinte"
+                "transaction": "Beg"
             },
             "buy": {
                 "inv_item": "Item inválido!",
                 "inv_money": "Precisas ter {{money}}€ para compares o item!",
                 "success": " Compras-te o {{product}} com sucesso!",
                 "transaction": {
-                    "1": "Loja",
-                    "2": "Produto / Quantidade"
+                    "1": "Store",
+                    "2": "Product / Quantity"
                 }
             },
             "coinflip": {
@@ -262,46 +262,46 @@
                 "no_money": "A tua vítima é inteligente e não tem dinheiro na carteira, para a próxima escolhe outra",
                 "no_rob": "Foste apanhado a roubar e por isso terás que pagar uma indemenização ao **{{user}}** no valor de **{{fine}}€**. Este valor foi te retirado do banco",
                 "success": "Roubas-te **{{cash}}€** ao ${{user}}",
-                "transaction": "Roubo"
+                "transaction": "Rob"
             },
             "roulette": {
                 "money_more": "Estás a apostar mais do que tens",
                 "color_bad": "Especifica uma cor | Vermelho [1.5x] (normal) Preto [2x] (hard) Verde [15x](rare)",
                 "success": {
-                    "1": "Ganhas-te",
-                    "2": "Multiplicador"
+                    "1": "You won",
+                    "2": "Multiplier"
                 },
-                "loose": "Perdes-te",
-                "transaction": "Casino(Roleta)"
+                "loose": "You lost",
+                "transaction": "Casino(Roulette)"
             },
             "sell": {
-                "inv_item": "Item inválido!",
+                "inv_item": "Invalid item!",
                 "no_item": "Precisas ter pelo menos {{quant}} {{product}}",
                 "success": "Vendes-te {{product}} com sucesso!",
                 "transactions": {
-                    "1": "Loja",
-                    "2": "Produto / Quantidade"
+                    "1": "Store",
+                    "2": "Product / Quantity"
                 }
             },
             "setpin": {
                 "inv_pin": "PIN inválido! O mesmo deverá conter unica e exclusivamente 4 números",
                 "success": "PIN definido com sucesso!",
-                "server": "Servidor"
+                "server": "Server"
             },
             "slots": {
                 "money_more": "Não podes depositar mais dinheiro do que tens",
-                "win": "Ganhas-te",
-                "loose": "Perdes-te",
-                "transactions": "Casino(Slots"
+                "win": "You won",
+                "loose": "You lost",
+                "transactions": "Casino(Slots)"
             },
             "transactions": {
-                "title": "Transações de",
-                "footer": "Página"
+                "title": "Transactions from",
+                "footer": "Page"
             },
             "weekly": {
                 "inv_time": "Já recebes-te a tua semanada\n\nExecuta o comando outra vez daqui a {{days}}d {{hours}}h {{min}}m {{sec}}s",
                 "success": "Recebes-te a tua semanada de {{amount}}€",
-                "transactions": "Semanada"
+                "transactions": "Weekly"
             },
             "withdraw": {
                 "money_more": "Não podes levantar mais dinheiro do que tens",
@@ -310,16 +310,16 @@
             },
             "work": {
                 "inv_time": "Agora estás no teu intervalo**\n\nTrabalha novamente daqui a {{min}}m {{sec}}s",
-                "transactions": "Trabalhar"
+                "transactions": "Work"
             }
         },
         "fun": {
             "8ball": {
-                "no_question": "Por favor fornece uma questão!",
+                "no_question": "Please provide a question!",
                 "embed": {
-                    "title": "🎱  A bola 8 mágica  🎱",
-                    "field_1": "Questão",
-                    "field_2": "Resposta"
+                    "title": "🎱  The magic 8-ball  🎱",
+                    "field_1": "Question",
+                    "field_2": "Answer"
                 },
                 "answer": [
                     "É certo.",
@@ -363,8 +363,8 @@
                 "noWinner": "Giveaway cancelado, não houve participações válidas.",
                 "by": "Por:",
                 "winners": "Vencedor(es)",
-                "ended_at": "Termina a:",
-                "last_Chance": "ÚLTIMA OPORTUNIDADE!"
+                "ended_at": "Ends at:",
+                "last_Chance": "LAST CHANCE!"
             },
             "rerol": {
                 "no_g": "Não foi possível encontrar o giveaway para",
@@ -377,63 +377,63 @@
             },
             "end": {
                 "n_g": "Não foi possível encontrar o giveaway para",
-                "g_ended": "O giveaway já terminou",
-                "success": "Giveaway terminado!"
+                "g_ended": "The giveaway already ended",
+                "success": "Giveaway Ended!"
             }
         },
         "info": {
             "channel": {
                 "embed": {
-                    "title": "Informações do Canal",
-                    "field_1": "Canal",
+                    "title": "Channel Info",
+                    "field_1": "Channel",
                     "field_2": "ID",
-                    "field_3": "Tipo",
-                    "field_4": "Membros",
-                    "field_5": "Criado a",
+                    "field_3": "Type",
+                    "field_4": "Members",
+                    "field_5": "Created at",
                     "field_6": "Rate Limit",
                     "field_7": "User Limit",
                     "field_8": "Members Joined",
-                    "field_9": "Tópico"
+                    "field_9": "Topic"
                 }
             },
             "role": {
                 "embed": {
-                    "title": "Informações acerca de: ",
-                    "field_1": "Nome",
+                    "title": "Info from:",
+                    "field_1": "Name",
                     "field_2": "ID",
-                    "field_3": "Cor",
-                    "field_4": "Criada a",
-                    "field_5": "Posição",
-                    "field_6": "Membros",
-                    "field_6_desc": "membros têm este cargo",
+                    "field_3": "Color",
+                    "field_4": "Created at",
+                    "field_5": "Position",
+                    "field_6": "Members",
+                    "field_6_desc": "members have this role",
                     "field_7": "Hoisted",
-                    "field_8": "Mencionável",
-                    "field_9": "Permissões"
+                    "field_8": "Mentionable",
+                    "field_9": "Permissions"
                 }
             },
             "stats": {
-                "days": "dias",
-                "hours": "horas",
-                "day": "dia",
-                "hour": "hora",
-                "title": "Estatísticas do Bot",
-                "client": "Cliente",
-                "servers": "Servidores"
+                "days": "days",
+                "hours": "hours",
+                "day": "day",
+                "hour": "hour",
+                "title": "Bot Stats",
+                "client": "Client",
+                "servers": "Servers"
             },
             "user": {
                 "embed": {
-                    "title": "Informações acerca de: ",
+                    "title": "Info from: ",
                     "field_1": "Username",
                     "field_2": "ID",
                     "field_3": "Avatar",
-                    "field_4": "Conta criada a: ",
-                    "field_5": "Entrou a: ",
+                    "field_4": "Account created at: ",
+                    "field_5": "Joined at: ",
                     "field_6": "Flags",
                     "field_7": "Status",
-                    "field_8": "Cargo mais alto",
+                    "field_8": "Higher role",
                     "field_9": "BOT?",
-                    "field_10": "Atividade",
-                    "field_11": "Permissões",
+                    "field_10": "Activity",
+                    "field_11": "Permissions",
                     "field_12": "Cargos"
                 }
             }
@@ -510,9 +510,9 @@
                 "inv_user": "Por favor diz um membro válido para dar timeout!",
                 "mod_embed": {
                     "field_1": "Staff",
-                    "field_2": "Utilizador",
-                    "field_3": "Motivo",
-                    "field_4": "Duração"
+                    "field_2": "User",
+                    "field_3": "Reason",
+                    "field_4": "Duration"
                 }
             },
             "verify": {
@@ -525,11 +525,11 @@
                 "footer": "Podes mudar a categoria do canal e o nome do mesmo",
                 "counters": {
                     "1": "Total de Membros:",
-                    "2": "Membros:",
+                    "2": "Members:",
                     "3": "Bots:",
-                    "4": "Categorias:",
-                    "5": "Canais:",
-                    "6": "Cargos:",
+                    "4": "Categories:",
+                    "5": "Channels:",
+                    "6": "Roles:",
                     "7": "Boosts:",
                     "8": "Boost Level:"
                 }
@@ -559,7 +559,7 @@
             "not_owner": "Não és o dono do ticket ou esta sala não é um ticket!",
             "claim": {
                 "already_claimed": "Já deram claim ao ticket!",
-                "not_exists": "Não existe",
+                "not_exists": "Doesn't exist",
                 "responsible": "Responsável"
             },
             "edit": {
@@ -568,15 +568,15 @@
             },
             "reason": {
                 "over_max": "Insere um motivo com até 1000 caracteres!",
-                "reason": "Motivo"
+                "reason": "Reason"
             },
             "panel": {
                 "ready": "Sistema de tickets está pronto para ser usado!",
                 "default": {
-                    "title": "Sistema de Tickets",
-                    "description": "Usa o botão para abrires um ticket!"
+                    "title": "Ticket System",
+                    "description": "Use the button to open a ticket!"
                 },
-                "button": "🎟️ | Abrir Ticket"
+                "button": "🎟️ | Open a Ticket"
             },
             "panel_help": {
                 "title": "Ajuda para Paineis de Tickets",
@@ -598,13 +598,13 @@
         },
         "whitelist": {
             "add": {
-                "added": "Pergunta Adicionada!",
+                "added": "Question Added!",
                 "max": "O máximo de questões são 15!"
             },
             "panel": {
                 "success": "Painel enviado! Caso ainda não tenhas feito trata das definições da whitest (`/whl settings`) e das perguntas (`/whl add-pergunta`)",
                 "defaults": {
-                    "title": "Sistema de Whitelist",
+                    "title": "Whitelist System",
                     "description": "Usa o botão abaixo para iniciares a tua whitelist!"
                 },
                 "button": "🔔 | Iniciar Whitelist"
@@ -657,22 +657,22 @@
                     "title": "Ticket Aberto!",
                     "description": "O teu ticket foi aberto com sucesso!"
                 },
-                "button": "🚫 | Fechar"
+                "button": "🚫 | Close"
             },
             "ticket_close": {
                 "log_embed": {
-                    "title": "TICKET FECHADO",
-                    "field_1": "Canal",
+                    "title": "TICKET CLOSED",
+                    "field_1": "Channel",
                     "field_2": "Responsável",
-                    "field_3": "Dono do Ticket",
-                    "field_4": "Arquivo"
+                    "field_3": "Ticket Owner",
+                    "field_4": "Archive"
                 },
-                "attachment": "Anexo",
-                "not_exists": "Não existe",
+                "attachment": "Attachment",
+                "not_exists": "Doesn't exist",
                 "closed": {
-                    "1": "Fechado",
-                    "2": "Ticket Fechado",
-                    "3": "A fechar"
+                    "1": "Closed",
+                    "2": "Ticket Closed",
+                    "3": "Closing"
                 }
             },
             "verify": {
@@ -688,33 +688,33 @@
                 "embed_1": {
                     "title": "Whitelist Pronta!",
                     "description": "A tua whitelist está pronta para começar!",
-                    "channel": "Canal"
+                    "channel": "Channel"
                 },
                 "embed_2": {
                     "title": "Whitelist",
                     "description": "A tua whitelist começará dentro de momentos!"
                 },
-                "question": "Questão",
+                "question": "Question",
                 "not_time": "Não respondeu a tempo!",
-                "user": "Utilizador",
+                "user": "User",
                 "status": {
                     "1": "Status",
-                    "2": "Pendente..."
+                    "2": "Pending..."
                 },
                 "buttons": {
-                    "approve": "✔️ | Aprovar",
-                    "fail": "❌ | Reprovar"
+                    "approve": "✔️ | Approve",
+                    "fail": "❌ | Reject"
                 },
                 "submitted": "Whitelist submetida!"
             },
             "whitelistApprove": {
-                "approved": "Aprovada!",
-                "u_btn": "Mensagem enviada do servidor:",
+                "approved": "Approved!",
+                "u_btn": "Message sent from the server:",
                 "result_Embed": "O utilizador <@{{user}}> foi aprovado!"
             },
             "whitelistFail": {
-                "failed": "Reprovada!",
-                "u_btn": "Mensagem enviada do servidor:",
+                "failed": "Rejected!",
+                "u_btn": "Message sent from the server:",
                 "result_Embed": "O utilizador <@{{user}}> foi reprovado!"
             }
         },
