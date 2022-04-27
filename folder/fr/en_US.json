@@ -1,0 +1,731 @@
+{
+    "errors": {
+        "no_perms": "You don't have permissions to use this command!",
+        "inv_channel": "Invalid channel!",
+        "n_expected": "Something went wrong, please contact our support team to resolve",
+        "inv_link": " Submit a valid link! Must contain http:// or https://",
+        "n_owner": "You must be the owner of the server to execute backups!",
+        "inv_time": "Provide a valid duration! (s/m/h/d)",
+        "inv_role": "You should mention a role!",
+        "no_user": "You didn't mention anyone!",
+        "bot_no_perms": "An error occurred... Please confirm I have {{perm}} permission!",
+        "no_voice_channel": "You must be in a voice channel!",
+        "try_again_later": "Please try again in a few seconds!",
+        "inv_member": "Mention a valid member!"
+    },
+    "success": {
+        "single": "Success!",
+        "channel": "Channel successfully defined and ready to use!",
+        "giveaway_start": "The giveaway started!"
+    },
+    "works": [
+        "You went to brush your teeth with the homeless and you won",
+        "You went to pick up cow poop and you won",
+        "You went to sell drugs to judges and you won",
+        "You went to wash watermelons and you won",
+        "You went to get butts and you won",
+        "You went to clean public bathhouses and you won",
+        "You went to wash cars and you won",
+        "Foste fazer um parto e ganhas-te",
+        "Foste lavar um cavalo e ganhas-te",
+        "Foste streamar e ganhas-te",
+        "Foste trabalhar como cosplayer e ganhas-te",
+        "Foste limpar casas e ganhas-te",
+        "Foste roubar casas e ganhas-te",
+        "Foste limpar folhas e ganhas-te",
+        "Foste cortar a relva dos vizinhos e ganhas-te",
+        "Um ladrão tentou assaltar-te e ganhas-te",
+        "Foste assassinar um homem e ganhas-te",
+        "Foste passear um cão e ganhas-te",
+        "Foste ás compras para uma velhinha e ganhas-te",
+        "Foste construir casas para pássaros e ganhas-te",
+        "Foste aspirar carros e ganhas-te",
+        "Foste apanhar cocós de cão e ganhas-te",
+        "Foste arrancar ervas daninhas num jardim e ganhas-te",
+        "Foste ajudar numa mudança de casa e ganhas-te",
+        "Foste pintar paredes e ganhas-te",
+        "Foste fazer trabalho de trolha e ganhas-te",
+        "Foste chunar um carro e ganhas-te",
+        "Foste configurar um servidor de discord e ganhas-te",
+        "Foste dar graxa a um staff e ganhas-te",
+        "Foste fazer uma limpeza a um computador e ganhas-te",
+        "Foste montar um computador um computador e ganhas-te",
+        "Foste servir ás mesas de um restaurante e ganhas-te",
+        "Foste trabalhar para o Angels Bar e ganhas-te",
+        "Foste entregar medicamentos a uma velhinha e ganhas-te",
+        "Foste vender beijos na boca e ganhas-te",
+        "Foste contratado para gogo boy e ganhas-te",
+        "Conheces-te um Sugar Daddy e ganhas-te",
+        "Conheces-te uma Sugar Mommy e ganhas-te",
+        "Foste fazer o trabalho de babysiter e ganhas-te",
+        "You went to work for Fidelidade and you won",
+        "Foste a um bordel e ganhas-te",
+        "Foste montar uma cabra e ganhas-te",
+        "Foste para a guerra e vieste de lá coxo e ganhas-te",
+        "Foste encornado e ganhas-te",
+        "Foste jogar á bola e ganhas-te",
+        "Foste jogar ténis e ganhas-te",
+        "Foste jogar Ping-Pong e ganhas-te",
+        "Foste jogar snooker e ganhas-te",
+        "Foste jogar basebol, levas-te com um taco na testa, e ganhas-te"
+    ],
+    "commands": {
+        "admin": {
+            "anti_link": {
+                "disable": "Anti-link system disabled!",
+                "enable": "Anti-link system activated!"
+            },
+            "feedbackchannel": {
+                "embed": {
+                    "title": "Feedback",
+                    "description": "This is the {{sv_name}} server feedback channel, use the `/feedback` slash command to leave your review!"
+                }
+            },
+            "suggestionchannel": {
+                "embed": {
+                    "title": "Suggestions",
+                    "description": "Do you have something to suggest? Then you're on the right channel! Use the command below for your suggestion",
+                    "field_1": {
+                        "title": "Command",
+                        "description": "```fix\n/suggest <what you want>```"
+                    },
+                    "field_2": {
+                        "title": "Example",
+                        "description": "```/suggest This bot deserves more fame```"
+                    }
+                }
+            }
+        },
+        "avisos": {
+            "warn": {
+                "warn_limit": "The user has reached the maximum number of warnings (3/3)... It's better to decide what to do with him",
+                "embed": {
+                    "title": "WARNING",
+                    "field1_title": "User",
+                    "field2_title": "Staff",
+                    "field3_title": "Reason",
+                    "count": "Count"
+                }
+            },
+            "remove_warn": {
+                "embed": {
+                    "title": "Removal of Warnings",
+                    "description": "The intended warning has been removed!"
+                },
+                "all_warns": "All warnings have been removed!",
+                "inv_warn": "The intended warning does not exist!",
+                "no_warn": "You must choose a warning, example: `1`, `2`, `3`, `all`!",
+                "mod_log_embed": {
+                    "title": "Removal of Warnings",
+                    "field_1": "STAFF",
+                    "field_2": "User",
+                    "field_3": "Warning",
+                    "field_4": {
+                        "title": "Reason",
+                        "description": "Doesn't exist"
+                    }
+                }
+            },
+            "see_warns": {
+                "embed": {
+                    "title": "WARNINGS",
+                    "description": "The user has no warnings",
+                    "fields": {
+                        "title": "Warning",
+                        "description": "Staff: <@{{staff}}>\nReason:{{reason}}\nDate:{{date}}"
+                    }
+                }
+            }
+        },
+        "backups": {
+            "create": {
+                "embed_author": {
+                    "title": "🗄️ Backup successfully created 🗄️",
+                    "description": "To execute the backup use the ID: `{{backupID}}` in the commands ```/backup load```"
+                },
+                "embed_reply": {
+                    "title": "🗄️ Backup successfully created 🗄️",
+                    "description": "The backup ID was sent to you in DM"
+                }
+            },
+            "info": {
+                "no_id": "You must specify a valid backup ID!",
+                "not_id": "This code doesn't belong to you!",
+                "no_backup": "No backups were found with this ID",
+                "embed": {
+                    "title": "Backup Info",
+                    "field_1": "Backup ID",
+                    "field_2": "Server ID",
+                    "field_3": "Size",
+                    "field_4": "Created at"
+                }
+            },
+            "load": {
+                "inv_id": "You must specify a valid backup ID!",
+                "not_id": "This code doesn't belong to you or doesn't exist!",
+                "wait_button": "When the backup runs all channels, positions, etc. will be exchanged! Click the button to confirm!",
+                "end": "Finished! Backup execution canceled!",
+                "started": "Backup execution started!"
+            }
+        },
+        "activities": {
+            "button": "Click here to join the activity",
+            "start": "Click in the button to get started!"
+        },
+        "economy": {
+            "products": {
+                "1": "bronze",
+                "2": "nikes",
+                "3": "car",
+                "4": "mansion",
+                "5": "cane",
+                "6": "bait",
+                "7": "gun",
+                "8": "bullets"
+            },
+            "balance": {
+                "embed": {
+                    "description": "Money from {{user}}",
+                    "field_1": "💵 Wallet",
+                    "field_2": "💳 Bank",
+                    "field_3": "🏦 Total"
+                },
+                "no_pin": "You haven't set a PIN for your account. Run the `/econ setpin` command to set the PIN",
+                "inv_pin": "Incorrect PIN! Run the command again"
+            },
+            "beg": {
+                "inv_time": "Have you been a beggar recently\n\nYou can use the command again in {{min}}m {{sec}}s",
+                "success": "You became a beggar and received {{amount}}€",
+                "transaction": "Beg"
+            },
+            "buy": {
+                "inv_item": "Invalid item!",
+                "inv_money": "You must have {{money}}€ to buy the item!",
+                "success": "You successfully purchased {{product}}!",
+                "transaction": {
+                    "1": "Store",
+                    "2": "Product / Quantity"
+                }
+            },
+            "coinflip": {
+                "money_more": "You are betting more than you have",
+                "no_money": "Provide an amount",
+                "loose": "You chose **{{userChoice}}**, but you got **{{result}}** so you lost {{money}}€",
+                "win": "You choose **{{userChoice}}** and get more **{{win}}**€",
+                "transaction": "Casino"
+            },
+            "daily": {
+                "inv_time": "Have you claimed your money today\n\nYou can use the command again in {{min}}m {{sec}}s",
+                "success": "You've got {{amount}} €",
+                "transaction": "Daily"
+            },
+            "deposit": {
+                "money_more": "You cannot deposit more money than you have",
+                "money_10k_more": "You deposited **{{money}}€**, but as the amount is above €10,000, 5% was taken from you, that is, it was added to your account **{{final}}€**",
+                "neg_money": "You cannot deposit negative money",
+                "success": "You've deposited {{money}}€"
+            },
+            "fish": {
+                "no_bait": "You don't have bait, go to the store they sell packs of 30",
+                "no_cane": "You don't have a rod, go to the store they sell fishing rods",
+                "inv_time": "After catching the fish, your reel fell into the water and was damaged... Now you've gone to get another one and it still takes **{{min}}m {{sec}}s**",
+                "success": "Wow you caught a fish! {{emoji}} I can sell it for {{worth}}€",
+                "transaction": "Fishing"
+            },
+            "hunt": {
+                "no_bullets": "You don't have bullets, go to the store they sell packs of 30",
+                "no_weapon": "You don't have a gun, go to the store they sell guns",
+                "inv_time": "After catching the animal, your weapon fell into a mud puddle and broke... Now you've gone to get another one and it's still taking **{{min}}m {{sec}}s**",
+                "success": "What a beautiful piece of MEATTTTT! {{emoji}} I can sell it for {{worth}}€",
+                "transaction": "Hunting"
+            },
+            "inventory": "Inventory from ",
+            "leaderboard": {
+                "inv_user": "Doesn't exist",
+                "embed": {
+                    "title": "The richest from ",
+                    "footer": "Page"
+                }
+            },
+            "pay": {
+                "same_user": "You can't give yourself money",
+                "mon_more": "You don't have that money...",
+                "success": "You've paid <@{{user}}> with {{money}}€",
+                "transaction": {
+                    "1": "Payment",
+                    "2": "User"
+                }
+            },
+            "rob": {
+                "same_user": "You can't steal yourself",
+                "inv_time": "In order not to get caught you will have to wait $**{{min}}m {{sec}}s**",
+                "no_money": "Your victim is smart and has no money in her wallet, for the next one choose another",
+                "no_rob": "You were caught stealing and therefore you will have to pay a compensation to **{{user}}** in the amount of **{{fine}}€**. This amount was withdrawn from your bank account",
+                "success": "You steal **{{cash}}€** from ${{user}}",
+                "transaction": "Rob"
+            },
+            "roulette": {
+                "money_more": "You are betting more than you have",
+                "color_bad": "Specify a color | Red [1.5x] (normal) Black [2x] (hard) Green [15x](rare)",
+                "success": {
+                    "1": "You won",
+                    "2": "Multiplier"
+                },
+                "loose": "You lost",
+                "transaction": "Casino(Roulette)"
+            },
+            "sell": {
+                "inv_item": "Invalid item!",
+                "no_item": "You must have at least {{quant}} {{product}}",
+                "success": "You've sold {{product}} successfully!",
+                "transactions": {
+                    "1": "Store",
+                    "2": "Product / Quantity"
+                }
+            },
+            "setpin": {
+                "inv_pin": "Invalid PIN! It must contain only and exclusively 4 numbers",
+                "success": "PIN set successfully!",
+                "server": "Server"
+            },
+            "slots": {
+                "money_more": "You cannot deposit more money than you have",
+                "win": "You won",
+                "loose": "You lost",
+                "transactions": "Casino(Slots)"
+            },
+            "transactions": {
+                "title": "Transactions from",
+                "footer": "Page"
+            },
+            "weekly": {
+                "inv_time": "You've already received your weekly\n\nExecute command again in {{days}}d {{hours}}h {{min}}m {{sec}}s",
+                "success": "You've received your weekly allowance of {{amount}}€",
+                "transactions": "Weekly"
+            },
+            "withdraw": {
+                "money_more": "You cannot withdraw more money than you have",
+                "neg_money": "You cannot withdraw negative money",
+                "success": "You've withdrawn {{money}}€ from the bank!"
+            },
+            "work": {
+                "inv_time": "Now you're on your break**\n\nWork again in {{min}}m {{sec}}s",
+                "transactions": "Work"
+            }
+        },
+        "fun": {
+            "8ball": {
+                "no_question": "Please provide a question!",
+                "embed": {
+                    "title": "🎱  The magic 8-ball  🎱",
+                    "field_1": "Question",
+                    "field_2": "Answer"
+                },
+                "answer": [
+                    "Is right.",
+                    "It is decidedly so.",
+                    "No doubt.",
+                    "Yes, definitely.",
+                    "Podes contar com ele.",
+                    "A meu ver, sim.",
+                    "Provavelmente.",
+                    "Sim.",
+                    "Os sinais apontam que sim.",
+                    "Resposta duvidosa, tente novamente.",
+                    "Pergunte novamente mais tarde.",
+                    "É melhor não te dizer agora.",
+                    "Não posso prever agora.",
+                    "Concentre-se e pergunte novamente.",
+                    "Não conte com isso.",
+                    "A minha resposta é não.",
+                    "As minhas fontes dizem que não.",
+                    "Muito duvidoso."
+                ]
+            },
+            "jokes": [
+                "**Avó:** Uma rima meu neto **Neto:** Lá vai um Kanguru levar no cu. **Avó:** Estás parvo. Vá lá mais uma rima. **Neto:** Lá vai um Kanguru levar um beijo na bochecha, só não leva no cu porque a minha avó não deixa.",
+                "Porque que a galinha atravessou a estrada ? Para chegar ao outro lado",
+                "Porque é que o espermatozoide atravessou a estrada? Porque calçei as meias erradas de manhã",
+                "O que é que faz uma hortaliça surda? Finge couve"
+            ]
+        },
+        "giveaways": {
+            "default": {
+                "ended": "GIVEAWAY TERMINADO",
+                "react": "Reage com 🎉 para participares!",
+                "drop_msg": "Sê o primeiro a reagir com 🎉 !",
+                "end": "Termina a:",
+                "win_msgs": {
+                    "1": "Parabéns",
+                    "2": "Ganhas-te"
+                },
+                "footer": "Giveaways",
+                "noWinner": "Giveaway cancelado, não houve participações válidas.",
+                "by": "Por:",
+                "winners": "Vencedor(es)",
+                "ended_at": "Ends at:",
+                "last_Chance": "LAST CHANCE!"
+            },
+            "rerol": {
+                "no_g": "Não foi possível encontrar o giveaway para",
+                "no_end": "O giveaway ainda não terminou",
+                "success": {
+                    "1": ":tada: Novo(s) vencedore(s): {{winners}}! Parabéns, ganhas-te **{{prize}}**!\n{{messageURL}}",
+                    "2": "Não houve participações válidas, por isso não é possível escolher novos vencedores!",
+                    "3": "Giveaway Repetido"
+                }
+            },
+            "end": {
+                "n_g": "Não foi possível encontrar o giveaway para",
+                "g_ended": "The giveaway already ended",
+                "success": "Giveaway Ended!"
+            }
+        },
+        "info": {
+            "channel": {
+                "embed": {
+                    "title": "Channel Info",
+                    "field_1": "Channel",
+                    "field_2": "ID",
+                    "field_3": "Type",
+                    "field_4": "Members",
+                    "field_5": "Created at",
+                    "field_6": "Rate Limit",
+                    "field_7": "User Limit",
+                    "field_8": "Members Joined",
+                    "field_9": "Topic"
+                }
+            },
+            "role": {
+                "embed": {
+                    "title": "Info from:",
+                    "field_1": "Name",
+                    "field_2": "ID",
+                    "field_3": "Color",
+                    "field_4": "Created at",
+                    "field_5": "Position",
+                    "field_6": "Members",
+                    "field_6_desc": "members have this role",
+                    "field_7": "Hoisted",
+                    "field_8": "Mentionable",
+                    "field_9": "Permissions"
+                }
+            },
+            "stats": {
+                "days": "days",
+                "hours": "hours",
+                "day": "day",
+                "hour": "hour",
+                "title": "Bot Stats",
+                "client": "Client",
+                "servers": "Servers"
+            },
+            "user": {
+                "embed": {
+                    "title": "Info from: ",
+                    "field_1": "Username",
+                    "field_2": "ID",
+                    "field_3": "Avatar",
+                    "field_4": "Account created at: ",
+                    "field_5": "Joined at: ",
+                    "field_6": "Flags",
+                    "field_7": "Status",
+                    "field_8": "Highest role",
+                    "field_9": "BOT?",
+                    "field_10": "Activity",
+                    "field_11": "Permissions",
+                    "field_12": "Cargos"
+                }
+            }
+        },
+        "mod": {
+            "accept": {
+                "no_msg_user": "Não foi possível enviar mensagem ao utilizador a informar do status da sugestão, ou porque tem os DM's fechados ou porque bloqueou o bot.",
+                "suggestion": "Sugestão",
+                "embed": {
+                    "status": "Status",
+                    "accepted": "Aceite",
+                    "reason": "Não foi especificado"
+                },
+                "u_embed": {
+                    "title": "Sugestão Aceite",
+                    "description": "A tua {{link}} foi aceite!"
+                }
+            },
+            "ban": {
+                "no_ban_perm": "Não podes banir membros",
+                "no_valid_member": "Por favor diz um membro válido para banir!",
+                "success": "Membro banido com sucesso!",
+                "inv_time": " Por favor diz um número de dias entre `0` e `7` para o bot apagar as mensagens do utilizador!",
+                "mod_embed": {
+                    "ban": "Ban",
+                    "member": "Member",
+                    "staff": "Staff",
+                    "motivo": "Reason"
+                }
+            },
+            "clear": {
+                "no_msg_num": "Write a number from **1** to **99 messages** to be deleted!",
+                "no_channel": "Select a valid channel!",
+                "success": "{{count}} messages cleared in this chat!",
+                "mod_embed": {
+                    "field_1": "Messages",
+                    "field_2": "Channel",
+                    "field_3": "Staff",
+                    "field_4": "Reason",
+                    "no_reason": "Not provided"
+                }
+            },
+            "kick": {
+                "no_kick_perms": "You cannot kick members!",
+                "no_user": "Please tell a member to kick!",
+                "no_kick": "You cannot kick the member",
+                "success": "Member successfully kicked",
+                "no_reason": "Not provided",
+                "mod_embed": {
+                    "field_1": "Member",
+                    "field_2": "Staff",
+                    "field_3": "Reason"
+                }
+            },
+            "deny": {
+                "no_msg_user": "It wasn't possible to send a message to the user informing him of the suggestion's status, either because the DM's are closed or because he blocked the bot.",
+                "suggestion": "Suggestion",
+                "embed": {
+                    "status": "Status",
+                    "accepted": "Denied",
+                    "reason": "Not specified"
+                },
+                "u_embed": {
+                    "title": "Suggestion Denied",
+                    "description": "Your {{link}} was denied!"
+                }
+            },
+            "say": {
+                "wait": "Sending...",
+                "sent": "✅ Sent!"
+            },
+            "timeout": {
+                "cant_timeout": "Could not time out! Check that the user does not have positions above or equal to yours.",
+                "inv_user": "Please tell a valid member to time out!",
+                "mod_embed": {
+                    "field_1": "Staff",
+                    "field_2": "User",
+                    "field_3": "Reason",
+                    "field_4": "Duration"
+                }
+            },
+            "verify": {
+                "role_higher_user": "You cannot mention a higher role than yours!",
+                "role_higher_bot": "You can't mention a higher role than mine!"
+            }
+        },
+        "status": {
+            "create": {
+                "footer": "You can change the channel category and the channel name",
+                "counters": {
+                    "1": "Total Members:",
+                    "2": "Members:",
+                    "3": "Bots:",
+                    "4": "Categories:",
+                    "5": "Channels:",
+                    "6": "Roles:",
+                    "7": "Boosts:",
+                    "8": "Boost Level:"
+                }
+            }
+        },
+        "sticky": {
+            "add": {
+                "in_use": "There is already a message associated with this channel"
+            },
+            "remove": {
+                "not_found": "Message not found"
+            }
+        },
+        "streams": {
+            "add": {
+                "added": "This stream is already added!",
+                "not_found": "Invalid twitch channel!"
+            },
+            "edit": {
+                "not_found": "Twitch channel not found!"
+            },
+            "remove": {
+                "not_found": "Twitch channel not found!"
+            }
+        },
+        "tickets": {
+            "not_owner": "You are not the ticket owner or this channel is not a ticket!",
+            "claim": {
+                "already_claimed": "They already claimed the ticket!",
+                "not_exists": "Doesn't exist",
+                "responsible": "Responsible"
+            },
+            "edit": {
+                "inv_id": "Use a valid message ID!",
+                "success": "Panel settings changed!"
+            },
+            "reason": {
+                "over_max": "Enter a reason with up to 1000 characters!",
+                "reason": "Reason"
+            },
+            "panel": {
+                "ready": "Ticket system is ready to use!",
+                "default": {
+                    "title": "Ticket System",
+                    "description": "Use the button to open a ticket!"
+                },
+                "button": "🎟️ | Open a Ticket"
+            },
+            "panel_help": {
+                "title": "Help for Ticket Panels",
+                "description": "This panel will show you the variables that you can use in the inner panel, that is, the panel that the bot will send in the ticket channel",
+                "field_1": {
+                    "title": "+n+",
+                    "description": "Simulates an enter"
+                },
+                "field_2": {
+                    "title": "v{memberTag}",
+                    "description": "User tag, example: Viper BOT#1463"
+                },
+                "field_3": {
+                    "title": "v{memberMention}",
+                    "description": "User mention, example: @Viper BOT#1463"
+                },
+                "footer": "More options will be added soon..."
+            }
+        },
+        "whitelist": {
+            "add": {
+                "added": "Question Added!",
+                "max": "The maximum number of questions is 15!"
+            },
+            "panel": {
+                "success": "Panel sent! In case you haven't done it yet, deal with the whitest settings (`/whl settings`) and questions (`/whl add-question`)",
+                "defaults": {
+                    "title": "Whitelist System",
+                    "description": "Use the button below to start your whitelist!"
+                },
+                "button": "🔔 | Start the Whitelist"
+            },
+            "remove": {
+                "not_found": "Question not found!",
+                "success": "Question Removed!"
+            },
+            "settings": {
+                "pend_whl": "Here the pending whitelists will appear",
+                "rst_whl": "Here the results of the whitelists will appear"
+            },
+            "see_questions": {
+                "no_questions": "There is no question!",
+                "title": "Whitelist questions"
+            }
+        },
+        "feedback": {
+            "inv_feedback": "The rating must be between 1 and 10!",
+            "not_defined": "The server does not have a defined feedback channel!",
+            "sent": "Review sent!",
+            "embeds": {
+                "server": "Server",
+                "evaluation": "Evaluation",
+                "reason": "Reason",
+                "user": "User"
+            }
+        }
+    },
+    "events": {
+        "interactionCreate": {
+            "blocked": {
+                "user": "You were banned from using bot commands",
+                "server": "Server is prohibited from using bot commands",
+                "footer": "If you think it was a mistake, contact support"
+            },
+            "ticketPanel": {
+                "ticket_embed": {
+                    "desc_default": "Thanks for opening a ticket, how can we help?\nTo delete and archive the ticket use the button below.",
+                    "field_1": {
+                        "title": "Reason",
+                        "description": "Use the `/ticket reason` slash command to set the reason for the ticket"
+                    },
+                    "field_2": {
+                        "title": "Responsible",
+                        "description": "Not exists"
+                    }
+                },
+                "embed_to_ticket": {
+                    "title": "Ticket Opened!",
+                    "description": "Your ticket has been successfully opened!"
+                },
+                "button": "🚫 | Close"
+            },
+            "ticket_close": {
+                "log_embed": {
+                    "title": "TICKET CLOSED",
+                    "field_1": "Channel",
+                    "field_2": "Responsible",
+                    "field_3": "Ticket Owner",
+                    "field_4": "Archive"
+                },
+                "attachment": "Attachment",
+                "not_exists": "Doesn't exist",
+                "closed": {
+                    "1": "Closed",
+                    "2": "Ticket Closed",
+                    "3": "Closing"
+                }
+            },
+            "verify": {
+                "added": "You've got the tag <@&{{role}}>",
+                "removed": "I've removed the tag <@&{{role}}>",
+                "error": "Couldn't give/remove the tag, probably because the bot has tags below it"
+            },
+            "whitelistPanel": {
+                "no_questions": "There are no questions for the whitelist!",
+                "no_whl_pend": "There is no channel for pending whitelists!",
+                "no_whl_rst": "There is no channel for the result of the whitelists!",
+                "ard_pend": "You already have a whitelist pending!",
+                "embed_1": {
+                    "title": "Whitelist Ready!",
+                    "description": "Your whitelist is ready to go!",
+                    "channel": "Channel"
+                },
+                "embed_2": {
+                    "title": "Whitelist",
+                    "description": "Your whitelist will start in a moment!"
+                },
+                "question": "Question",
+                "not_time": "Did not respond in time!",
+                "user": "User",
+                "status": {
+                    "1": "Status",
+                    "2": "Pending..."
+                },
+                "buttons": {
+                    "approve": "✔️ | Approve",
+                    "fail": "❌ | Reject"
+                },
+                "submitted": "Whitelist submitted!"
+            },
+            "whitelistApprove": {
+                "approved": "Approved!",
+                "u_btn": "Message sent from the server:",
+                "result_Embed": "User <@{{user}}> has been approved!"
+            },
+            "whitelistFail": {
+                "failed": "Rejected!",
+                "u_btn": "Message sent from the server:",
+                "result_Embed": "User <@{{user}}> has been rejected!"
+            }
+        },
+        "messageCreate": {
+            "sugsChannel": "This channel is only and exclusively for suggestions! This is not a chat!",
+            "link": "Sending links is not allowed!!",
+            "blocked": {
+                "user": "You were banned from using bot commands",
+                "server": "Server is prohibited from using bot commands",
+                "footer": "If you think it was a mistake, contact support"
+            }
+        }
+    }
+}
