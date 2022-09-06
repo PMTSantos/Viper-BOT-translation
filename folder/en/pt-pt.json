@@ -12,7 +12,7 @@
 		"no_voice_channel": "You must be in a voice channel!",
 		"try_again_later": "Please try again in a few seconds!",
 		"inv_member": "Mention a valid member!",
-		"no_motive": "Convém dares algum motivo!"
+		"no_motive": "Give some reason!"
 	},
 	"success": {
 		"single": "Success!",
@@ -167,7 +167,7 @@
 				"wait_button": "When the backup runs all channels, positions, etc. will be exchanged! Click the button to confirm!",
 				"end": "Finished! Backup execution canceled!",
 				"started": "Backup execution started!",
-				"start_btn": "Iniciar Backup"
+				"start_btn": "Start Backup"
 			}
 		},
 		"activities": {
@@ -217,7 +217,7 @@
 				"transaction": "Casino"
 			},
 			"daily": {
-				"inv_time": "Já reivindicas-te o teu dinheiro de hoje\n\nPodes usar o comando outra vez daqui a {{hour}}h {{min}}m {{sec}}s",
+				"inv_time": "You have already claimed your money today\n\nYou can use the command again in {{hour}}h {{min}}m {{sec}}s",
 				"success": "You've got {{amount}} €",
 				"transaction": "Daily"
 			},
@@ -236,16 +236,16 @@
 			},
 			"hunt": {
 				"no_bullets": "You don't have bullets, go to the store they sell packs of 30",
-				"no_weapon": "Não tens arma, vai á loja que eles vendem armas",
+				"no_weapon": "You don't have a gun, go to the store they sell guns",
 				"inv_time": "After catching the animal, your weapon fell into a mud puddle and broke... Now you've gone to get another one and it's still taking **{{min}}m {{sec}}s**",
 				"success": "What a beautiful piece of MEATTTTT! {{emoji}} I can sell it for {{worth}}€",
-				"transaction": "Caça"
+				"transaction": "Hunting"
 			},
-			"inventory": "Inventário de {{user}}",
+			"inventory": "{{user}} Inventory",
 			"leaderboard": {
 				"inv_user": "Doesn't exist",
 				"embed": {
-					"title": "Os mais ricos de {{serverName}}",
+					"title": "The richest of {{serverName}}",
 					"footer": "Page"
 				}
 			},
@@ -273,8 +273,8 @@
 					"1": "You won",
 					"2": "Multiplier"
 				},
-				"loose": "Perdes-te {{money}}€",
-				"transaction": "**Casino**(Roleta)"
+				"loose": "You have lost {{money}}€",
+				"transaction": "**Casino**(Roulette)"
 			},
 			"sell": {
 				"inv_item": "Invalid item!",
@@ -292,12 +292,12 @@
 			},
 			"slots": {
 				"money_more": "You cannot deposit more money than you have",
-				"win": "Ganhas-te {{money}}€",
-				"loose": "Perdes-te {{money}}€",
+				"win": "You have won {{money}}€",
+				"loose": "You have lost {{money}}€",
 				"transactions": "**Casino**(Slots)"
 			},
 			"transactions": {
-				"title": "Transações de {{user}}",
+				"title": "{{user}} Transactions",
 				"footer": "Page"
 			},
 			"weekly": {
@@ -352,8 +352,8 @@
 			]
 		},
 		"giveaways": {
-			"started": "O giveaway começou!",
-			"notText": "O canal pedido não é de texto!",
+			"started": "The giveaway started!",
+			"notText": "The requested channel is not text!",
 			"default": {
 				"ended": "GIVEAWAY FINISHED",
 				"react": "React with 🎉 to participate!",
@@ -422,7 +422,7 @@
 				"hour": "hour",
 				"title": "Bot Stats",
 				"client": "Client",
-				"server": "Servidor"
+				"server": "Server"
 			},
 			"user": {
 				"embed": {
@@ -431,14 +431,14 @@
 					"field_2": "ID:",
 					"field_3": "Avatar:",
 					"field_4": "Account created at: ",
-					"field_5": "Entrou a:",
+					"field_5": "Joined at:",
 					"field_6": "Flags:",
 					"field_7": "Status:",
-					"field_8": "Cargo mais alto:",
+					"field_8": "Highest role:",
 					"field_9": "BOT?",
-					"field_10": "Atividade:",
-					"field_11": "Permissões:",
-					"field_12": "Cargos:"
+					"field_10": "Activity:",
+					"field_11": "Permissions:",
+					"field_12": "Roles:"
 				}
 			}
 		},
@@ -449,8 +449,8 @@
 				"embed": {
 					"status": "Status",
 					"accepted": "Accept",
-					"reason": "Motivo",
-					"no_reason": "Não foi especificado"
+					"reason": "Reason",
+					"no_reason": "Not specified"
 				},
 				"u_embed": {
 					"title": "Suggestion Accepted",
@@ -458,7 +458,7 @@
 				}
 			},
 			"ban": {
-				"no_ban_perm": "Não podes banir membros!",
+				"no_ban_perm": "You cannot ban members!",
 				"no_valid_member": "Please tell a member to ban!",
 				"success": "Member successfully banned!",
 				"inv_time": " Please enter a number of days between `0` and `7` for the bot to delete user messages!",
@@ -500,9 +500,9 @@
 				"suggestion": "Suggestion",
 				"embed": {
 					"status": "Status",
-					"denied": "Recusada",
-					"reason": "Motivo",
-					"no_reason": "Não foi especificado"
+					"denied": "Denied",
+					"reason": "Reason",
+					"no_reason": "Not specified"
 				},
 				"u_embed": {
 					"title": "Suggestion Denied",
@@ -510,14 +510,14 @@
 				}
 			},
 			"say-embed": {
-				"not_text": "O canal mencionado não é de texto!",
-				"max_length": " Não podes exceder os 1000 caracteres!",
-				"no_perm": "Não foi possível enviar a mensagem devido a falta de permissões!**\nPermissões necessárias: `{{perm}}`"
+				"not_text": "The requested channel is not text!",
+				"max_length": "You cannot exceed 1000 characters!",
+				"no_perm": "Could not send message due to lack of permissions!**\nRequired permissions: `{{perm}}`"
 			},
 			"say": {
 				"wait": "Sending...",
 				"sent": "✅ Sent!",
-				"no_perm": "Não foi possível enviar a mensagem devido a falta de permissões!**\nPermissões necessárias: `{{perm}}`"
+				"no_perm": "Could not send message due to lack of permissions!**\nRequired permissions: `{{perm}}`"
 			},
 			"timeout": {
 				"cant_timeout": "Could not time out! Check that the user does not have positions above or equal to yours.",
@@ -572,7 +572,7 @@
 		},
 		"tickets": {
 			"not_owner": "You are not the ticket owner or this channel is not a ticket!",
-			"not_perm": "Não tens permissões ou esta sala não é um ticket!",
+			"not_perm": "You don't have permissions or this channel is not a ticket!",
 			"claim": {
 				"already_claimed": "They already claimed the ticket!",
 				"not_exists": "Doesn't exist",
@@ -639,23 +639,23 @@
 			}
 		},
 		"suggest": {
-			"not_img": "O ficheiro anexado não aparenta ser uma imagem! Formatos aceites: png, jpg, jpeg",
-			"over_max": "A sugestão não pode exceder os 1000 caracteres!",
-			"not_defined": "Não foi definido nenhum canal de sugestões ou o canal não foi encontrado!",
-			"cancelled": "Cancelado!",
+			"not_img": "The attached file does not appear to be an image! Accepted formats: png, jpg, jpeg",
+			"over_max": "The suggestion cannot exceed 1000 characters!",
+			"not_defined": "No suggestion channel defined or channel not found!",
+			"cancelled": "Canceled!",
 			"embed": {
 				"status": "Status",
-				"pending": "Pendente...",
-				"wait": "Confirma a tua sugestão",
-				"time": "Tens 1 minuto!"
+				"pending": "Pending...",
+				"wait": "Confirm your suggestion",
+				"time": "You have 1 minute!"
 			},
 			"buttons": {
-				"send": "Enviar",
-				"cancel": "Cancelar"
+				"send": "Submit",
+				"cancel": "Cancel"
 			},
 			"thread": {
-				"title": "Discussão da Sugestão - {{token}}",
-				"motive": "Discutam aqui esta sugestão!"
+				"title": "Suggestion Discussion - {{token}}",
+				"motive": "Discuss this suggestion here!"
 			}
 		},
 		"feedback": {
@@ -708,7 +708,7 @@
 				"closed": {
 					"1": "Closed",
 					"2": "Ticket Closed",
-					"3": "A Fechar..."
+					"3": "Closing..."
 				}
 			},
 			"verify": {
@@ -742,16 +742,16 @@
 					"fail": "❌ | Reject"
 				},
 				"submitted": "Whitelist submitted!",
-				"over_max": "Para ler o resto dos resultados consulta https://viperbot.tech/settings/{{guild}}/whitelist/{{user}}"
+				"over_max": "To read the rest of the results see https://viperbot.tech/settings/{{guild}}/whitelist/{{user}}"
 			},
 			"whitelistApprove": {
-				"no_perm": "Não tens permissões para aprovares as whitelists!",
+				"no_perm": "You don't have permissions to approve whitelists!",
 				"approved": "Approved!",
 				"u_btn": "Message sent from the server:",
 				"result_Embed": "User <@{{user}}> has been approved!"
 			},
 			"whitelistFail": {
-				"no_perm": "Não tens permissões para reprovares as whitelists!",
+				"no_perm": "You don't have permissions to disapprove whitelists!",
 				"failed": "Rejected!",
 				"u_btn": "Message sent from the server:",
 				"result_Embed": "User <@{{user}}> has been rejected!"
@@ -769,267 +769,267 @@
 	},
 	"dashboard": {
 		"buttons": {
-			"save": "Guardar",
-			"add": "Adicionar",
-			"delete": "Apagar",
-			"settings": "Definições",
+			"save": "Save",
+			"add": "Add",
+			"delete": "Delete",
+			"settings": "Settings",
 			"blacklist": "Blacklist",
-			"kick": "Expulsar",
-			"invite": "Convidar",
-			"send": "Enviar",
-			"edit": "Editar",
-			"execute": "Executar"
+			"kick": "Kick",
+			"invite": "Invite",
+			"send": "Send",
+			"edit": "Edit",
+			"execute": "Execute"
 		},
 		"other": {
-			"can_resize": "Podes Aumentar :)"
+			"can_resize": "You can increase :)"
 		},
 		"main": {
-			"home": "Início",
-			"servers": "Servidores",
-			"updates": "Atualizações",
-			"server": "Servidor",
-			"default": "default",
+			"home": "Home",
+			"servers": "Servers",
+			"updates": "Updates",
+			"server": "Server",
+			"default": "Default",
 			"tickets": "Tickets",
 			"streams": "Streams",
 			"whitelist": "Whitelist",
-			"mod": "Moderação",
+			"mod": "Moderation",
 			"admin": {
-				"users": "Gerir Users",
-				"servers": "Geir Servers",
-				"updates": "Gerir Updates"
+				"users": "Manage Users",
+				"servers": "Manage Servers",
+				"updates": "Manage Updates"
 			}
 		},
 		"admin": {
 			"blacklist_sv": {
-				"server_id": "ID do Servidor",
-				"block": "Bloquear",
-				"block_desc": "Adicionar, ou não, o servidor á blacklist.<br>Não usar aspas!!",
-				"reason": "Motivo",
-				"reason_desc": "Motivo para adicionar o servidor á blacklist."
+				"server_id": "Server ID",
+				"block": "Block",
+				"block_desc": "Add, or not, the server to the blacklist.<br>Don't use quotes!!",
+				"reason": "Reason",
+				"reason_desc": "Reason to add the server to the blacklist."
 			},
 			"blacklist_user": {
-				"user_id": "ID do User",
-				"block": "Bloquear",
-				"block_desc": "Adicionar, ou não, o user á blacklist.<br>Não usar aspas!!",
-				"block_all_svs": "loquear todos os servidores em que este utilizador é dono?",
-				"reason": "Motivo",
-				"reason_desc": "Motivo para adicionar o user á blacklist."
+				"user_id": "User ID",
+				"block": "Block",
+				"block_desc": "Add, or not, the user to the blacklist.<br>Don't use quotes!!",
+				"block_all_svs": "Block all servers this user owns?",
+				"reason": "Reason",
+				"reason_desc": "Reason to add the user to the blacklist."
 			},
 			"update_new": {
-				"title": "Título:",
-				"desc": "Descrição:",
-				"imgs": "Links de Imagens: (Separar links por dois && exemplo: link && link)"
+				"title": "Title:",
+				"desc": "Description:",
+				"imgs": "Image Links: (Separate links by two && example: link && link)"
 			},
 			"viperadmin_svs": {
-				"add": "Blacklist a Servidor Por ID",
+				"add": "Blacklist a Server By ID",
 				"status": {
-					"1": "Todos os servidores",
-					"2": "🟢 -> Não está na Blacklist",
-					"3": "🔴 -> Está na Blacklist"
+					"1": "All servers",
+					"2": "🟢 → Not on Blacklist",
+					"3": "🔴 → It's on the Blacklist"
 				},
 				"table": {
-					"1": "Servidor",
+					"1": "Server",
 					"2": "ID",
 					"3": "Status"
 				}
 			},
 			"viperadmin_users": {
-				"add": "Blacklist a Utilizador Por ID",
+				"add": "Blacklist a User By ID",
 				"status": {
-					"1": "Todos os Users",
-					"2": "🟢 -> Não está na Blacklist",
-					"3": "🔴 -> Está na Blacklist"
+					"1": "All Users",
+					"2": "🟢 → Not on Blacklist",
+					"3": "🔴 → It's on the Blacklist"
 				},
 				"table": {
 					"1": "User",
 					"2": "ID",
 					"3": "Status"
 				},
-				"unknown": "Nome Desconhecido..."
+				"unknown": "Name Unknown..."
 			}
 		},
 		"user": {
 			"dash": {
 				"stats": {
-					"1": "Servidores",
-					"2": "Utilizadores",
-					"3": "Canais",
+					"1": "Servers",
+					"2": "Users",
+					"3": "Channels",
 					"4": "Ping"
 				},
-				"welcome": "Bem vindo à Dashboard do Viper BOT! Aqui podes configurar o bot de uma forma mais dinâmica ao invés de usares comandos"
+				"welcome": "Welcome to the Viper BOT Dashboard! Here you can configure the bot in a more dynamic way instead of using commands"
 			},
 			"default": {
-				"none": "Nenhum",
+				"none": "None",
 				"1": {
 					"1": "Anti-Link",
-					"2": "O sistema de anti-link protege os utilizadores do teu servidor dos links de scam, links submetidos pelos utilizadores do Viper BOT"
+					"2": "Anti-link system protects your server users from scam links, links submitted by Viper BOT users"
 				},
 				"2": {
-					"1": "Cargo de Admin",
-					"2": "Seleciona o cargo que pode usar os comandos da categoria de admin"
+					"1": "Admin Role",
+					"2": "Selects the role that can use admin category commands"
 				},
 				"3": {
-					"1": "Cargo de Mod",
-					"2": "Seleciona o cargo que pode usar os comandos da categoria de mod"
+					"1": "Mod Role",
+					"2": "Select the role that can use mod category commands"
 				},
 				"4": {
-					"1": "Canal de Logs",
-					"2": "Neste canal vão aparecer as logs do teu servidor. Atualmente Desativado!!"
+					"1": "Logs Channel",
+					"2": "In this channel, your server logs will appear. Currently, Disabled!!"
 				},
 				"5": {
-					"1": "Canal de Mod Logs",
-					"2": "Neste canal vão aparecer as logs dos comandos de moderação, como bans, kicks, etc."
+					"1": "Mod Logs Channel",
+					"2": "This channel will show the logs of moderation commands, such as bans, kicks, etc."
 				},
 				"6": {
-					"1": "Canal de Ticket Logs",
-					"2": "Neste canal vão aparecer os registos dos tickets fechados"
+					"1": "Ticket Logs Channel",
+					"2": "In this channel, the records of closed tickets will appear"
 				},
 				"7": {
-					"1": "Canal de Sugestões",
-					"2": "Neste canal vão aparecer as sugestões submetidas pelos utilizadores do teu servidor"
+					"1": "Suggestions Channel",
+					"2": "This channel will show the suggestions submitted by the users of your server"
 				},
 				"8": {
-					"1": "Categoria de Whitelist",
-					"2": "Nesta categoria serão criados os canais para as Whitelists serem submetidas"
+					"1": "Whitelist Category",
+					"2": "In this category, channels will be created for the Whitelists to be submitted"
 				},
 				"9": {
-					"1": "Canal de Resultados das Whitelists",
-					"2": "Neste canal vão aparecer os resultados das whitelists"
+					"1": "Whitelist Results Channel",
+					"2": "This channel will show the results of the whitelists"
 				},
 				"10": {
-					"1": "Canal de Whitelists Pendentes",
-					"2": "Neste canal vão aparecer as whitelists pendentes"
+					"1": "Pending Whitelists Channel",
+					"2": "Here the pending whitelists will appear"
 				}
 			},
 			"mod_cmds": {
 				"1": {
 					"cmd": "Clear",
-					"desc": "Elimina o nº de mensagens pedidas no canal pedido.",
+					"desc": "Deletes the number of messages requested in the requested channel.",
 					"params": {
-						"1": "Canal",
-						"2": "Nº de Mensagens",
-						"22": "Nº de Mensagens (1-99)",
-						"3": "Motivo"
+						"1": "Channel",
+						"2": "No. of Messages",
+						"22": "Number of Messages (1-99)",
+						"3": "Reason"
 					}
 				},
 				"2": {
 					"cmd": "Ban",
-					"desc": "Dá ban a um utilizador.",
+					"desc": "Ban a user.",
 					"params": {
-						"1": "Utilizador:",
-						"2": "Motivo",
-						"3": "Nº de dias para apagar as mensagens:",
-						"33": "Nº de dias para apagar as mensagens (0-7)"
+						"1": "User:",
+						"2": "Reason",
+						"3": "Number of days to delete messages:",
+						"33": "Number of days to delete messages (0-7)"
 					}
 				},
 				"3": {
 					"cmd": "Kick",
-					"desc": "Dá kick a um utilizador.",
+					"desc": "Kick a user.",
 					"params": {
-						"1": "Utilizador",
-						"2": "Motivo"
+						"1": "User",
+						"2": "Reason"
 					}
 				},
 				"4": {
 					"cmd": "Timeout",
-					"desc": "Dá timeout a um utilizador",
+					"desc": "Timeout a user",
 					"params": {
-						"1": "Utilizador",
-						"2": "Motivo",
-						"3": "Tempo",
+						"1": "User",
+						"2": "Reason",
+						"3": "Time",
 						"4": {
-							"1": "Dias",
-							"2": "Horas",
-							"3": "Minutos",
-							"4": "Segundos"
+							"1": "Days",
+							"2": "Hours",
+							"3": "Minutes",
+							"4": "Seconds"
 						}
 					}
 				}
 			},
 			"mod_whl": {
-				"quest_btn": "Ver Questões",
-				"see_btn": "Ver Whitelist",
-				"not_exists": "Não existem whitelists pendentes"
+				"quest_btn": "See Questions",
+				"see_btn": "See Whitelist",
+				"not_exists": "There are no pending whitelists"
 			},
 			"mod_whl_quest": {
-				"quest": "Questão"
+				"quest": "Question"
 			},
 			"mod_whl_user": {
-				"quest": "Questão",
-				"resp": "Resposta"
+				"quest": "Question",
+				"resp": "Answer"
 			},
 			"server": {
 				"stats": {
-					"1": "Total de Membros",
-					"2": "Membros",
+					"1": "Total Members",
+					"2": "Members",
 					"3": "Bots",
-					"4": "Categorias",
-					"5": "Canais",
-					"6": "Cargos",
+					"4": "Categories",
+					"5": "Channels",
+					"6": "Roles",
 					"7": "Boosts",
-					"8": "Tickets Abertos"
+					"8": "Open Tickets"
 				},
-				"welcome": "Aqui poderás alterar as definições do servidor:"
+				"welcome": "Here you can change the server settings from:"
 			},
 			"servers": {
-				"title": "Servidores",
+				"title": "Servers",
 				"table": {
-					"1": "Servidor",
+					"1": "Server",
 					"2": "ID"
 				}
 			},
 			"streamers": {
-				"add_streamer": "Adicionar Streamer",
-				"url": "URL do streamer",
-				"message": "Qual a mensagem que o bot deve enviar quando o streamer iniciar a live?",
-				"channel": "Para onde o bot deve notificar a live?",
-				"not_exists": "Não existem Streamers"
+				"add_streamer": "Add Streamer",
+				"url": "Streamer URL",
+				"message": "What message should the bot send when the streamer starts the live?",
+				"channel": "Where should the bot notify the live?",
+				"not_exists": "There are no streamers"
 			},
 			"ticket_panels": {
 				"1": {
-					"1": "Nome do Painel",
-					"2": "Nome do painel, é o título do embed"
+					"1": "Panel Name",
+					"2": "Panel name, is the title of the embed"
 				},
 				"2": {
-					"1": "Categoria do Ticket",
-					"2": "Será nesta categoria que os tickets serão criados",
-					"3": "Nenhuma categoria"
+					"1": "Ticket Category",
+					"2": "It will be in this category that the tickets will be created",
+					"3": "No category"
 				},
 				"3": {
-					"1": "Canal",
-					"2": "Qual o canal para onde o painel vai ser enviado"
+					"1": "Channel",
+					"2": "Which channel will the panel be sent to"
 				},
 				"4": {
-					"1": "Formato do Nome do Ticket",
-					"2": "Formato do nome do ticket, número ou nickname<br>Exemplos: ticket-{{username}} || ticket-8",
+					"1": "Ticket Name Format",
+					"2": "Ticket name format, number or nickname<br>Examples: ticket-{{username}} OR ticket-8",
 					"3": "Nickname",
-					"4": "Número"
+					"4": "Number"
 				},
 				"5": {
-					"1": "Cargos que podem ver os tickets",
-					"2": "Seleciona os cargos que podem ver os tickets desta categoria"
+					"1": "Positions that can view tickets",
+					"2": "Select the roles that can see tickets in this category"
 				},
 				"6": {
-					"1": "Descrição do Painel Exterior",
-					"2": "Descrição que aparece no painel de abertura do ticket"
+					"1": "Description of the Exterior Panel",
+					"2": "Description that appears in the ticket opening panel"
 				},
 				"7": {
-					"1": "Título do Painel Interior",
-					"2": "Título que aparece quando um ticket é aberto<br>Variáveis: <br>+n+ -> Simula um Enter <br>v{memberTag} -> Tag de um Membro (Exemplo: {{usertag}}) <br>v{memberMention} -> Menção de um Membro (Exemplo: @{{username}}) "
+					"1": "Inner Panel Title",
+					"2": "Title that appears when a ticket is opened<br>Variables: <br>+n+ → Simulates an Enter <br>v{memberTag} → Member Tag (Example: {{usertag}}) <br>v{memberMention} → Mention of a Member (Example: @{{username}})"
 				},
 				"8": {
-					"1": "Descrição do Painel Interior",
-					"2": "Descrição que aparece quando um ticket é aberto<br>Variáveis: <br>+n+ -> Simula um Enter <br>v{memberTag} -> Tag de um Membro (Exemplo: {{usertag}}) <br>v{memberMention} -> Menção de um Membro (Exemplo: @{{username}}) "
+					"1": "Interior Panel Description",
+					"2": "Description that appears when a ticket is opened<br>Variables: <br>+n+ → Simulates an Enter <br>v{memberTag} → Member Tag (Example: {{usertag}}) <br>v{memberMention} → Mention of a Member (Example: @{{username}})"
 				}
 			},
 			"tickets": {
-				"btn": "Criar Painel",
-				"no_panel_name": "Não foi fornecido",
-				"send_to": "Enviar Para:"
+				"btn": "Create Panel",
+				"no_panel_name": "Not provided",
+				"send_to": "Send to:"
 			},
 			"updates": {
 				"title": "Updates",
-				"no_updates": "😢 Não existem updates"
+				"no_updates": "😢 There are no updates"
 			}
 		}
 	}
