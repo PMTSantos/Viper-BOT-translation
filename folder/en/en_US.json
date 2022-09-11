@@ -769,36 +769,36 @@
 	},
 	"dashboard": {
 		"notifications": {
-			"leave": "BOT expulso do servidor",
-			"panel_deleted": "Painel apagado com sucesso!",
-			"changes_saved": "Alterações guardadas com sucesso!",
-			"panel_sent": "Painel enviado com sucesso!",
-			"panel_created": "Painel criado com sucesso!",
-			"panel_updated": "Painel atualizado com sucesso!",
-			"stream_updated": "Stream atualizada com sucesso!",
-			"stream_deleted": "Stream apagada com sucesso!",
-			"stream_add": "Stream adicionada com sucesso!",
-			"quest_updated": "Perguntas atualizadas com sucesso",
-			"user_approved": "Utilizador aprovado com sucesso!",
-			"user_failed": "Utilizador reprovado com sucesso!",
-			"not_deleted": "Não foi possível limpar o nº do mensagens pedido!",
-			"deleted_msgs": "Mensagens apagadas com sucesso!",
-			"not_banned": "Não foi possível banir o utilizador!",
-			"banned": "Utilizador banido com sucesso!",
-			"not_kicked": "Não foi possível expulsar o utilizador!",
-			"kicked": "Utilizador expulso com sucesso!",
-			"not_timedout": "Não foi possível dar timeout ao utilizador!",
-			"timedout": "Membro levou timeout com sucesso!",
-			"server_added": "Servidor adicionado á blacklist!",
-			"server_removed": "Servidor removido da blacklist!",
-			"user_added": "Utilizador adicionado á blacklist!",
-			"user_removed": "Utilizador removido da blacklist!",
-			"new_update": "Nova atualização adicionada com sucesso!",
-			"update_deleted": "Atualização apagada com sucesso!",
-			"update_updated": "Atualização alterada com sucesso!",
-			"connect_error": "Erro ao conectar com o Discord, por favor tente novamente! Caso o erro presista entre em contato com o Suporte do Viper BOT!",
-			"user_banned": "Foste banido de usar os comandos e a dashboard do Viper BOT",
-			"logout": "Sessão terminada com sucesso!"
+			"leave": "Bot left the server!",
+			"panel_deleted": "Panel deleted!",
+			"changes_saved": "Changes saved!",
+			"panel_sent": "Panel sent!",
+			"panel_created": "Panel created!",
+			"panel_updated": "Panel updated!",
+			"stream_updated": "Stream updated!",
+			"stream_deleted": "Stream deleted!",
+			"stream_add": "Stream added!",
+			"quest_updated": "Questions updated!",
+			"user_approved": "User approved!",
+			"user_failed": "User failed!",
+			"not_deleted": "Unable to clear the requested message number!",
+			"deleted_msgs": "Deleted messages!",
+			"not_banned": "Unable to ban user!",
+			"banned": "User banned!",
+			"not_kicked": "Unable to kick user!",
+			"kicked": "User kicked!",
+			"not_timedout": "Unable to timeout the user!",
+			"timedout": "User timed out!",
+			"server_added": "Server added to blacklist!",
+			"server_removed": "Server removed from blacklist!",
+			"user_added": "User added to blacklist!",
+			"user_removed": "User removed from blacklist!",
+			"new_update": "New update available!",
+			"update_deleted": "Update deleted!",
+			"update_updated": "Update updated!",
+			"connect_error": "Error connecting to Discord, please try again! If the error persists, contact Viper BOT Support!",
+			"user_banned": "You have been banned from using the Viper BOT commands and dashboard",
+			"logout": "You have been logged out!"
 		},
 		"buttons": {
 			"save": "Save",
@@ -828,29 +828,29 @@
 			"mod": "Moderation",
 			"admin": {
 				"users": "Manage Users",
-				"servers": "Gerir Servers",
+				"servers": "Manage Servers",
 				"updates": "Manage Updates"
 			}
 		},
 		"footer": {
-			"language": "Idioma",
-			"rights": "Todos os direitos reservados."
+			"language": "Language",
+			"rights": "All rights reserved."
 		},
 		"admin": {
 			"blacklist_sv": {
 				"server_id": "Server ID",
 				"block": "Block",
-				"block_desc": "Adicionar, ou não, o servidor á blacklist.",
+				"block_desc": "Add, or not, the server to the blacklist.",
 				"reason": "Reason",
-				"reason_desc": "Motivo para adicionar o servidor á blacklist.<br>Não usar aspas!!"
+				"reason_desc": "Reason to add the server to the blacklist.<br>Don't use quotes!!"
 			},
 			"blacklist_user": {
 				"user_id": "User ID",
 				"block": "Block",
-				"block_desc": "Adicionar, ou não, o user á blacklist.",
-				"block_all_svs": "Bloquear todos os servidores em que este utilizador é dono?",
+				"block_desc": "Add, or not, the user to the blacklist.",
+				"block_all_svs": "Block all servers this user owns?",
 				"reason": "Reason",
-				"reason_desc": "Motivo para adicionar o user á blacklist.<br>Não usar aspas!!"
+				"reason_desc": "Reason to add the user to the blacklist.<br>Don't use quotes!!"
 			},
 			"update_new": {
 				"title": "Title:",
@@ -994,8 +994,8 @@
 			"mod_whl_user": {
 				"quest": "Question",
 				"resp": "Answer",
-				"approve": "Aprovar",
-				"rep": "Reprovar"
+				"approve": "Approve",
+				"rep": "Denied"
 			},
 			"server": {
 				"stats": {
@@ -1045,7 +1045,7 @@
 					"4": "Number"
 				},
 				"5": {
-					"1": "Positions that can view tickets",
+					"1": "Roles that can view tickets",
 					"2": "Select the roles that can see tickets in this category"
 				},
 				"6": {
@@ -1054,11 +1054,11 @@
 				},
 				"7": {
 					"1": "Inner Panel Title",
-					"2": "Título que aparece quando um ticket é aberto<br>Variáveis: <br>+n+ -> Simula um Enter <br>v{memberTag} -> Tag de um Membro (Exemplo: {{username}}#{{usertag}}) <br>v{memberMention} -> Menção de um Membro (Exemplo: @{{username}}) "
+					"2": "Title that appears when a ticket is opened<br>Variables: <br>+n+ → Simulates an Enter <br>v{memberTag} → Member Tag (Example: {{username}}#{{usertag}}) <br>v{memberMention} → Mention of a Member (Example: @{{username}})"
 				},
 				"8": {
 					"1": "Interior Panel Description",
-					"2": "Descrição que aparece quando um ticket é aberto<br>Variáveis: <br>+n+ -> Simula um Enter <br>v{memberTag} -> Tag de um Membro (Exemplo: {{username}}#{{usertag}}) <br>v{memberMention} -> Menção de um Membro (Exemplo: @{{username}}) "
+					"2": "Description that appears when a ticket is opened<br>Variables: <br>+n+ → Simulates an Enter <br>v{memberTag} → Member Tag (Example: {{username}}#{{usertag}}) <br>v{memberMention} → Mention of a Member (Example: @{{username}})"
 				}
 			},
 			"tickets": {
