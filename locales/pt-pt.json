@@ -768,6 +768,39 @@
 		}
 	},
 	"dashboard": {
+		"notifications": {
+			"leave": "BOT expulso do servidor",
+			"panel_deleted": "Painel apagado com sucesso!",
+			"changes_saved": "Alterações guardadas com sucesso!",
+			"panel_sent": "Painel enviado com sucesso!",
+			"panel_created": "Painel criado com sucesso!",
+			"panel_updated": "Painel atualizado com sucesso!",
+			"stream_updated": "Stream atualizada com sucesso!",
+			"stream_deleted": "Stream apagada com sucesso!",
+			"stream_add": "Stream adicionada com sucesso!",
+			"quest_updated": "Perguntas atualizadas com sucesso",
+			"user_approved": "Utilizador aprovado com sucesso!",
+			"user_failed": "Utilizador reprovado com sucesso!",
+			"not_deleted": "Não foi possível limpar o nº do mensagens pedido!",
+			"deleted_msgs": "Mensagens apagadas com sucesso!",
+			"not_banned": "Não foi possível banir o utilizador!",
+			"banned": "Utilizador banido com sucesso!",
+			"not_kicked": "Não foi possível expulsar o utilizador!",
+			"kicked": "Utilizador expulso com sucesso!",
+			"not_timedout": "Não foi possível dar timeout ao utilizador!",
+			"timedout": "Membro levou timeout com sucesso!",
+			"server_added": "Servidor adicionado á blacklist!",
+			"server_removed": "Servidor removido da blacklist!",
+			"user_added": "Utilizador adicionado á blacklist!",
+			"user_removed": "Utilizador removido da blacklist!",
+			"new_update": "Nova atualização adicionada com sucesso!",
+			"update_deleted": "Atualização apagada com sucesso!",
+			"update_updated": "Atualização alterada com sucesso!",
+			"connect_error": "Erro ao conectar com o Discord, por favor tente novamente! Caso o erro presista entre em contato com o Suporte do Viper BOT!",
+			"user_banned": "Foste banido de usar os comandos e a dashboard do Viper BOT",
+			"logout": "Sessão terminada com sucesso!"
+
+		},
 		"buttons": {
 			"save": "Guardar",
 			"add": "Adicionar",
@@ -778,7 +811,8 @@
 			"invite": "Convidar",
 			"send": "Enviar",
 			"edit": "Editar",
-			"execute": "Executar"
+			"execute": "Executar",
+			"create": "Criar" 
 		},
 		"other": {
 			"can_resize": "Podes Aumentar :)"
@@ -795,25 +829,29 @@
 			"mod": "Moderação",
 			"admin": {
 				"users": "Gerir Users",
-				"servers": "Geir Servers",
+				"servers": "Gerir Servers",
 				"updates": "Gerir Updates"
 			}
+		},
+		"footer": {
+			"language": "Idioma",
+			"rights": "Todos os direitos reservados."
 		},
 		"admin": {
 			"blacklist_sv": {
 				"server_id": "ID do Servidor",
 				"block": "Bloquear",
-				"block_desc": "Adicionar, ou não, o servidor á blacklist.<br>Não usar aspas!!",
+				"block_desc": "Adicionar, ou não, o servidor á blacklist.",
 				"reason": "Motivo",
-				"reason_desc": "Motivo para adicionar o servidor á blacklist."
+				"reason_desc": "Motivo para adicionar o servidor á blacklist.<br>Não usar aspas!!"
 			},
 			"blacklist_user": {
 				"user_id": "ID do User",
 				"block": "Bloquear",
-				"block_desc": "Adicionar, ou não, o user á blacklist.<br>Não usar aspas!!",
-				"block_all_svs": "loquear todos os servidores em que este utilizador é dono?",
+				"block_desc": "Adicionar, ou não, o user á blacklist.",
+				"block_all_svs": "Bloquear todos os servidores em que este utilizador é dono?",
 				"reason": "Motivo",
-				"reason_desc": "Motivo para adicionar o user á blacklist."
+				"reason_desc": "Motivo para adicionar o user á blacklist.<br>Não usar aspas!!"
 			},
 			"update_new": {
 				"title": "Título:",
@@ -956,7 +994,9 @@
 			},
 			"mod_whl_user": {
 				"quest": "Questão",
-				"resp": "Resposta"
+				"resp": "Resposta",
+				"approve": "Aprovar",
+				"rep": "Reprovar"
 			},
 			"server": {
 				"stats": {
@@ -1015,11 +1055,11 @@
 				},
 				"7": {
 					"1": "Título do Painel Interior",
-					"2": "Título que aparece quando um ticket é aberto<br>Variáveis: <br>+n+ -> Simula um Enter <br>v{memberTag} -> Tag de um Membro (Exemplo: {{usertag}}) <br>v{memberMention} -> Menção de um Membro (Exemplo: @{{username}}) "
+					"2": "Título que aparece quando um ticket é aberto<br>Variáveis: <br>+n+ -> Simula um Enter <br>v{memberTag} -> Tag de um Membro (Exemplo: {{username}}#{{usertag}}) <br>v{memberMention} -> Menção de um Membro (Exemplo: @{{username}}) "
 				},
 				"8": {
 					"1": "Descrição do Painel Interior",
-					"2": "Descrição que aparece quando um ticket é aberto<br>Variáveis: <br>+n+ -> Simula um Enter <br>v{memberTag} -> Tag de um Membro (Exemplo: {{usertag}}) <br>v{memberMention} -> Menção de um Membro (Exemplo: @{{username}}) "
+					"2": "Descrição que aparece quando um ticket é aberto<br>Variáveis: <br>+n+ -> Simula um Enter <br>v{memberTag} -> Tag de um Membro (Exemplo: {{username}}#{{usertag}}) <br>v{memberMention} -> Menção de um Membro (Exemplo: @{{username}}) "
 				}
 			},
 			"tickets": {
